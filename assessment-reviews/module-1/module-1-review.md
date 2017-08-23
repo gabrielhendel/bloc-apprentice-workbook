@@ -32,9 +32,22 @@ HTML that conveys the semantic meaning of what's being written. For example, usi
 
 5. Write an complete standard HTML document outline (including a DOCTYPE, and `<html>`, `<head>`, and `<body>` tags).
 
+<!DOCTYPE html>
+
+<head> 
+  <script type="text/javascript" src="main.css"></script>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+  //body elements
+</body>
+
 6. Inside of the code for the previous exercise, write the appropriate tag to link to a script file called `main.js`.
+See above
 
 7. Inside of the code for the previous exercise, write the appropriate tag to link to a stylesheet file called `main.css`.
+See above
 
 8. Write a numbered list in HTML and list three of your favorite books.
 <ul>
@@ -230,25 +243,45 @@ console.log(pet.name());
 ### Questions
 
 1. What is the command line and what is it used for?
+Lets a computer user interact with their computer via text input as opposed to a GUI/mouse
+
 2. What does the command `ls` do?
+Lists files/directories in the current directory
+
 3. What does the command `pwd` do?
+Writes path of current directory
+
 4. What does the following command do: `cd my-cool-project`
+goes into that directory called "my-cool-project"
 
 ### Exercises
 
 1. Write the command to make a new directory called "my-cool-project".
+mkdir my-cool-project
+
 2. Write the command to create a file called "index.html".
+touch index.html
+
 3. Write the command to delete a file called "main.css".
+-d main.css
 
 ## Git
 
 ### Questions
 
 1. What is Git and what is it used for?
+A system for tracking a history of changes to a project. Allows people to navigate history of changes, do version control and revert to a past version, and collaborate on work on a project in separate branches and merge changes and identify differences.
+
 2. What's the difference between a local repository and a remote repository?
+Local repository is on the user's local server. Remote repository is on a cloud server, often on some service like github.
 
 ### Exercises
 
 1. Write the command that you would use to create a new local Git repository.
+git init
+
 2. Write the command to stage a file called `index.html` to be committed.
+git add index.html
+
 3. Write the command to view the current status of the git repository.
+git status
