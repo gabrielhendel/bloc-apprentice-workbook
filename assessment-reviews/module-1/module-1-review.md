@@ -75,7 +75,13 @@
 ### Exercises
 
 1. Write a line that declares a variable called `myName` and set its value to your name.
+var myName = 'Gabe Hendel';
+
 2. Write a loop that logs the numbers 1 through 10 to the console.
+for (var i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
 3. Translate the following pseudocode into JavaScript: if `score` is greater than `3` and `lives` is greater than `0`, alert "You win!".
 4. Write a function `sayHello` that takes one argument, a name, and logs "Hello, <name>!" to the console. Then, call the function below the function definition and pass in your name as the argument.
 5. What would the following script log to the console?
